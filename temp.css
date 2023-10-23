@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=REM:wght@300&display=swap');
+* {
+   margin: 0px;
+}
+body{
+    font-family: 'Borel', cursive;
+    font-family: 'REM', sans-serif;    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container{
+    overflow: auto;
+    background-color: black;
+}
+.logo p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+}
+nav{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.welcome-container{
+    position: relative;
+}
+.welcome-container img {
+       width: 100%;
+       height: 500px;
+}
+.text-block{
+    position: absolute;
+    color: white;
+    background-color:black;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-container{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.about-container p {
+    font-size:20px;
+}
+.about-container button{
+    background: black;
+   border: none;
+   border-radius: 50px;
+   outline: none;
+   letter-spacing: .04em;
+   font-size: 20px;
+   padding: 15px 20px;
+   color: white;
+}
+.about-container .searchbar{
+    width:100% ;
+    max-width: 700px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+    background: rgba(92, 80, 80, 0.2);
+    display: flex;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.about-container .searchbar input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 10px 15px;
+        font-size: 20px;
+        color:black;
+        align-items: center;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 40px;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.card{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    text-align: center;
+    }
+.card .crd img{
+        width: 320px;
+        height: 220px;
+        border-radius: 6px;
+        margin-top: 55px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(235, 231, 231);
+    margin-top:44px;
+    padding: 44px
+}
